@@ -229,10 +229,12 @@ body{
 
 @media (max-width: 768px) {
     .info-welcome h2{
+        text-align: center;
         font-size: 1.5em;
     }
 
     .info-welcome p{
+        text-align: center;
         font-size: 1em;
     }
 }
@@ -306,6 +308,7 @@ body{
 
 @media (max-width: 768px) {
     .edu h2{
+        text-align: center;
         font-size: 1.5em;
     }
 
