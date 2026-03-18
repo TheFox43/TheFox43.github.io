@@ -25,7 +25,7 @@ header img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
+    z-index: -1; /* Don't know, don't ask */
 }
 
 header nav{
@@ -219,19 +219,25 @@ footer p{
 */
 
 @media (max-width: 768px) {
-    .info {
+    .info{
         grid-template-columns: 1fr;
         gap: 20px;
     }
 
-    .info img {
+    .info img{
         width: 80%;
         height: auto;
+        max-width: 250px;
         grid-row: auto;
     }
 
     .info-text h2{
         font-size: 1.5em;
+        text-align: center;
+    }
+
+    .info-text p{
+        text-align: center;
     }
 }
 
