@@ -338,6 +338,10 @@ footer p{
     font-size: 1.2em;
 }
 
+.card-front img{
+    height: 50px;
+}
+
 .card-front p, .card-back p{
     padding-inline: 5%;
 }
