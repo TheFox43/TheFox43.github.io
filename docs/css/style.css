@@ -210,6 +210,7 @@ footer p{
 }
 
 .info-text p{
+    text-align: justify;
     font-size: 1em;
     line-height: 1.6;
     color: #333;
@@ -238,6 +239,11 @@ footer p{
         grid-row: auto;
     }
 
+    .info-text{
+        align-items: center;
+        justify-self: center;
+    }
+
     .info-text h2{
         font-size: 1.5em;
         text-align: center;
@@ -262,6 +268,8 @@ footer p{
 
     /* Style of the skills box in the page */
     width: 100%;
+    margin: 20px 0;
+    padding: 10px 0;
     background-color: #fff;
     box-shadow: 0px 5px 4px rgba(0,0,0,0.1);
 
@@ -274,7 +282,6 @@ footer p{
     display: flex;
     flex-direction: column;
     align-items: end;
-    align-self: center;
 }
 
 .skills-intro h2{
@@ -283,7 +290,8 @@ footer p{
 }
 
 .skills-intro p{
-    text-align: end;
+    text-align: justify;
+    padding-left: 5%;
     line-height: 1.6;
 }
 
@@ -335,6 +343,7 @@ footer p{
 }
 
 .card-front{
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -343,10 +352,37 @@ footer p{
 }
 
 .card-back{
+    border-radius: 8px;
     text-align: center;
     background: #021f45;
     color: #f0f2f4;
     transform: rotateY(180deg);
+}
+
+/*
+** Responsive design for the section: smartphones
+*/
+
+@media (max-width: 768px) {
+    .skills{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .skills-intro{
+        align-items: center;
+    }
+
+    .skills-intro h2{
+        font-size: 1.5em;
+    }
+
+    .skills-intro p{
+        text-align: center;
+        padding-left: 0;
+        padding-inline: 5%;
+        font-size: 1em;
+    }
 }
 
 /*
@@ -444,7 +480,7 @@ footer p{
 }
 
 .title p{
-    grid-column: 2 / 2;
+    text-align: justify;
     align-self: center;
     padding-inline: 5%;
     font-size: 1em;
@@ -453,7 +489,6 @@ footer p{
 }
 
 .school{
-    grid-column: 1 / 1;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -490,18 +525,13 @@ footer p{
     }
 
     .title p{
-        grid-column: 1 / 1;;
         text-align: center;
     }
 
-    .school h3{
-        margin: 0 0;
-        text-align: center;
-    }
-
+    .school h3,
     .school h4{
-        margin: 0 0;
         text-align: center;
+        margin: 0 0;
     }
 }
 
@@ -550,7 +580,6 @@ footer p{
 }
 
 .job p{
-    grid-column: 2 / 2;
     align-self: center;
     font-size: 1em;
     line-height: 1.6;
@@ -558,7 +587,6 @@ footer p{
 }
 
 .company{
-    grid-column: 1 / 1;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -594,15 +622,10 @@ footer p{
     }
 
     .job p{
-        grid-column: 1 / 1;
         text-align: center;
     }
 
-    .company h3{
-        margin: 0 0;
-        text-align: center;
-    }
-
+    .company h3,
     .company h4{
         margin: 0 0;
         text-align: center;
