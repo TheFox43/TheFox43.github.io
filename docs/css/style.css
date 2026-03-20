@@ -28,6 +28,10 @@ header img{
     z-index: -1; /* Don't know, don't ask */
 }
 
+.menu{
+    width: 20px;
+}
+
 .menu ul{
     list-style: none;
     padding: 0;
@@ -91,6 +95,10 @@ header h3{
     header h1,
     header h3{
         transform: none;
+    }
+
+    .menu{
+        position: sticky;
     }
 
     header h1{
