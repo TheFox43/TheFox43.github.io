@@ -665,14 +665,73 @@ footer p{
 **
 */
 
-.projects-info h2,
-.language h2{
+.projects-info{
+    /* Position and structure of the info box in the page */
+    width: 100%;
+    align-items: center;
+
+    /* Style of the info box in the page */
+    margin: 20px 0;
+    padding: 10px 0;
+    background-color: #fff;
+    box-shadow: 0px 5px 4px rgba(0,0,0,0.1);
+
+    /* Style of the header text */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.projects-info h2{
+    padding-inline: 5%;
     font-size: 1.8em;
     color: #d16d16;
 }
 
+.projects-info p{
+    padding-inline: 5%;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+.language{
+    width: 100%;
+    background-color: #fff;
+
+    /* Style of the info box in the page */
+    margin: 20px 0;
+    padding: 10px 0;
+    background-color: #fff;
+    box-shadow: 0px 5px 4px rgba(0,0,0,0.1);
+
+    /* Style of the header text */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.language h2{
+    padding-inline: 5%;
+    color: #d16d16;
+    font-size: 1.8em;
+}
+
+.language p{
+    padding-inline: 5%;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+}
+
 .project img{
     height: 250px;
+}
+
+#stay-tuned{
+    font-size: 1.5em;
+    color: #d16d16;
+    justify-self: center;
+    background-color: #021f45;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    padding: 10px 10px;
 }
 
 /*
