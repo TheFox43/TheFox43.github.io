@@ -491,6 +491,7 @@ footer p{
     width: 95%;
     border-radius: 8px;
     justify-self: center;
+    align-self: center;
 
     /* Position of the items inside this box */
     display: grid;
@@ -593,6 +594,7 @@ footer p{
     width: 95%;
     border-radius: 8px;
     justify-self: center;
+    align-self: center;
 
     /* Position and structure of the info box in the page */
     display: grid;
