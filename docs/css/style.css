@@ -197,6 +197,7 @@ footer p{
     width: 90%;
     max-width: 320px;
     height: auto;
+    padding: 15px 0;
     align-self: center;
     justify-self: center;
 }
@@ -470,6 +471,8 @@ footer p{
 .edu{
     /* Position and structure of the info box in the page */
     width: 100%;
+    align-items: center;
+    justify-content: center;
 
     /* Style of the info box in the page */
     margin: 20px 0;
@@ -578,6 +581,8 @@ footer p{
 .work{
     /* Position and structure of the info box in the page */
     width: 100%;
+    align-items: center;
+    justify-content: center;
 
     /* Style of the info box in the page */
     margin: 20px 0;
