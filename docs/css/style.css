@@ -458,6 +458,7 @@ footer p{
 @media (max-width: 768px) {
     .info-welcome h2{
         justify-self: center;
+        text-align: center;
         font-size: 1.5em;
     }
 }
@@ -492,7 +493,6 @@ footer p{
     border-radius: 8px;
     justify-self: center;
     align-self: center;
-    align-content: center;
 
     /* Position of the items inside this box */
     display: grid;
@@ -523,18 +523,19 @@ footer p{
     align-self: center;
 }
 
-.school h3{
-    margin: 0 0;
-    padding: 10px 7%;
-    font-size: 1.2em;
-    color: #021f45;
-}
-
+.school h3,
 .school h4{
     margin: 0 0;
     padding: 10px 7%;
-    font-size: 1em;
     color: #021f45;
+}
+
+.school h3{
+    font-size: 1.2em;
+}
+
+.school h4{
+    font-size: 1em;
 }
 
 /*
@@ -550,6 +551,7 @@ footer p{
     .title{
         width: 90%;
         justify-self: center;
+        align-self: center;
         grid-template-columns: 1fr;
         padding: 15px 0;
     }
@@ -599,7 +601,6 @@ footer p{
     border-radius: 8px;
     justify-self: center;
     align-self: center;
-    align-content: center;
 
     /* Position and structure of the info box in the page */
     display: grid;
@@ -630,18 +631,19 @@ footer p{
     align-self: center;
 }
 
-.company h3{
-    margin: 0 0;
-    padding: 10px 7%;
-    font-size: 1.2em;
-    color: #021f45;
-}
-
+.company h3,
 .company h4{
     margin: 0 0;
     padding: 10px 7%;
-    font-size: 1em;
     color: #021f45;
+}
+
+.company h3{
+    font-size: 1.2em;
+}
+
+.company h3{
+    font-size: 1em;
 }
 
 /*
@@ -657,6 +659,7 @@ footer p{
     .job{
         width: 90%;
         justify-self: center;
+        align-self: center;
         grid-template-columns: 1fr;
         padding: 15px 0;
     }
