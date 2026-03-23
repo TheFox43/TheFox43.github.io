@@ -567,6 +567,7 @@ footer p{
         align-self: center;
         text-align: center;
         margin: 0 0;
+        padding: 10px 0;
     }
 }
 
@@ -673,6 +674,7 @@ footer p{
         grid-column: 1;
         text-align: center;
         margin: 0 0;
+        padding: 10px 0;
     }
 }
 
