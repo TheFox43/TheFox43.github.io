@@ -578,6 +578,19 @@ footer p{
 }
 
 /*
+** Minimal animations
+*/
+
+.title{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.title:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
+}
+
+/*
 ** Responsive design for the personal info education section: smartphones
 */
 
@@ -682,6 +695,19 @@ footer p{
 
 .company h4{
     font-size: 1em;
+}
+
+/*
+** Minimal animations
+*/
+
+.job{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
 }
 
 /*
@@ -812,6 +838,19 @@ footer p{
     height: 100%;
     background-color: #021f45;
     border-radius: 8px;
+}
+
+/*
+** Minimal animations
+*/
+
+.tongue{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tongue:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
 }
 
 /*
@@ -961,6 +1000,19 @@ footer p{
 }
 
 /*
+** Minimal animations
+*/
+
+.project{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
+}
+
+/*
 ** Responsive design for the contact form section: smartphones
 */
 
@@ -1075,7 +1127,7 @@ footer p{
     width: 100%;
     min-width: 220px;
     min-height: 250px;
-    margin: 2% 0%;
+    margin: 10px 0;
     padding: 5% 5%;
     font-family: 'Montserrat', sans-serif;
     border: 1px solid #021f45;
@@ -1087,7 +1139,7 @@ footer p{
     padding: 10px 20px;
     background-color: #d16d16;
     color: #f0f2f4;
-    border: 2px solid #021f45;
+    border: 1px solid #021f45;
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
