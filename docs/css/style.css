@@ -16,6 +16,11 @@ body{
     min-height: 100vh;
 }
 
+main{
+    display: grid;
+    width: 100%;
+}
+
 /*
 ** Style for the header image and nav bar
 */
