@@ -21,6 +21,13 @@ main{
     width: 100%;
 }
 
+@media (prefers-color-scheme: dark){
+    body{
+        background-color: #080b27;
+        color: #ffffff;
+    }
+}
+
 /*
 ** Style for the header image and nav bar
 */
@@ -104,6 +111,7 @@ header h3{
     }
 
     header nav{
+        position: fixed;
         top: 0;
     }
 
@@ -264,6 +272,20 @@ footer p{
     color: #d16d16;
     text-decoration: none;
     font-weight: bold;
+}
+
+/*
+** Dark theme mode
+*/
+
+@media (prefers-color-scheme: dark){
+    .info{
+        background-color: #080b27;
+    }
+
+    .info-text p{
+        color: #fff;
+    }
 }
 
 /*
@@ -919,6 +941,7 @@ footer p{
 
 .projects-info p{
     padding-inline: 5%;
+    text-align: justify;
     font-size: 1em;
     line-height: 1.6;
     color: #333;
@@ -927,7 +950,8 @@ footer p{
 .language{
     width: 95%;
     justify-self: center;
-    margin: 20px 0;
+    
+    margin: 20px auto;
     padding: 10px 0;
     background-color: #fff;
 
@@ -957,7 +981,9 @@ footer p{
 
 .projects-list{
     width: 95%;
-    margin: 20px 0;
+    justify-self: center;
+
+    margin: 20px auto;
     padding: 10px 0;
 
     /* Position of the projects inside the box */
@@ -969,6 +995,7 @@ footer p{
 
 .project{
     width: 500px;
+    justify-self: center;
 
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -997,6 +1024,7 @@ footer p{
 }
 
 .project p{
+    text-align: justify;
     grid-column: 2;
     padding-inline: 5%;
     font-size: 1em;
@@ -1032,12 +1060,16 @@ footer p{
         font-size: 1.5em;
     }
 
+    .projects-info p{
+        justify-self: center;
+    }
+
     .projects-list{
         gap: 0;
     }
 
     .project{
-        width: 90%;
+        width: 95%;
         grid-template-columns: 1fr;
         gap: 20px;
     }
