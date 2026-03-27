@@ -395,6 +395,7 @@ footer img{
     height: 200px;
     padding: 0 0px;
     perspective: 1000px;
+    border-radius: 8px;
 }
 
 .card-inner{
@@ -403,6 +404,7 @@ footer img{
     position: relative;
     transition: transform 0.5s;
     transform-style: preserve-3d;
+    border-radius: 8px;
 }
 
 /*
