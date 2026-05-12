@@ -1,0 +1,31 @@
+/*
+** Global styles for the whole Portfolio
+*/
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background-color: #090a1f;
+
+    /* Put the footer down and use full page space */
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+main{
+    display: grid;
+    width: 100%;
+}
+
+
+/*
+** Style for the main
+*/
+
+main{
+    background: linear-gradient(to bottom, #021f45, #050514);
+}
