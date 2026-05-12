@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     toggle.addEventListener("click", (e) => {
         e.preventDefault();
-        menu.classList.toggle("active");
+        menu.classList.toggle("is-open");
     });
 
     document.addEventListener("click", (e) => {
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const isClickOnToggle = toggle.contains(e.target);
 
         if (!isClickInsideMenu && !isClickOnToggle) {
-            menu.classList.remove("active");
+            menu.classList.remove("is-open");
         }
     });
 });
